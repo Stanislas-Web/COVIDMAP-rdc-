@@ -57,12 +57,12 @@ navigator.geolocation.getCurrentPosition(position => {
         lat,
         long
     };
-    // const json_setup = {
-    //     method: "POST",
-    //     headers: {
-    //         'Content-Type': "application/json",
-    //     },
-    //     body: JSON.stringify(data)
-    // }
-    // fetch("/user_geo_coords", json_setup)
+    const json_setup = {
+        method: "POST",
+        headers: {
+            'Content-Type': "application/json",
+        },
+        body: JSON.stringify(data)
+    }
+    fetch("/user_geo_coords", json_setup)
 });
