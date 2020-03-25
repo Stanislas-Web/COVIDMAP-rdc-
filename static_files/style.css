@@ -1,0 +1,9 @@
+#my_map {
+    height: 700px;
+}
+
+#fxd {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
