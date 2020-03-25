@@ -6,7 +6,7 @@ const user_db = new Datastore('user_coords.db')
 
 ///////////////////////////////////////
 // BASIC CONFIGURATIONS
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server started listening at ${port}`));
 app.use(express.static('static_files'));
 app.use(express.json({
