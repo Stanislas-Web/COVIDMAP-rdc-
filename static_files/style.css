@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 #my_map {
     height: 700px;
 }
@@ -6,4 +8,94 @@
     position: fixed;
     width: 100%;
     text-align: center;
+}
+.active {
+    border-bottom: 2px solid white;
+}
+ul li {
+    display:flex;
+    padding-left: 123px;
+    
+    
+
+}
+.nav{
+    display: flex;
+    background: #AA8DC3;
+    color: white;
+    height: 50px;
+    padding: 1%;
+    color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+ul li  {
+    padding: 0 2% 0 2%;
+
+}
+.divNav{
+    width: 50%;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding: 0 2% 0 2%;
+
+}
+nav div a{
+    text-decoration: none;
+}
+
+.nav .divNav a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav .divNav a:hover{
+    color: white;
+
+}
+
+div ul li {
+    list-style-type: none;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+
+}
+ul li :hover{
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+div a{
+    padding: 5% 0% 0% 5%;
+}
+nav div a{
+    color: white;
+}
+.activa{
+    opacity: 50%;
+}
+footer{
+    padding: 3%;
+    background: #AA8DC3;
+    text-align: center;
+}
+.img{
+    opacity: 30%;
+}
+
+footer p {
+    color: white;
+    opacity: 80%;
+}
+footer div {
+    color: white;
+    opacity: 80%;
+}
+table{
+    border-bottom: 1px solid black;
 }
